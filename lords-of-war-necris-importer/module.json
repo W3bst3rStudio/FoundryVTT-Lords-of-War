@@ -1,0 +1,14 @@
+{
+	"id": "lords-of-war-necris",
+	"title": "Lords of War - Necris Roll Step",
+	"description": "Adds the Necr \"Undead Variability\" roll step (d10 ability table, d6 weakness table, UVP) after a Necr is imported with Plutonium.",
+	"version": "1.0.0",
+	"compatibility": { "minimum": "13", "verified": "14" },
+	"authors": [{ "name": "Lords of War homebrew" }],
+	"relationships": {
+		"requires": [
+			{ "id": "plutonium", "type": "module" }
+		]
+	},
+	"esmodules": ["scripts/necris.mjs"]
+}
